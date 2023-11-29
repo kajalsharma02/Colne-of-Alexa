@@ -34,7 +34,7 @@ def run_alexa():
     elif 'how are you' in command:
         talk("I am fine, How about you!!!")
     elif 'name' in command:
-        talk ("My name is Chotu and I am virtual assistant of Ashish")
+        talk ("My name is Alexa and I am your virtual assistant")
     elif 'time' in command:
         time = datetime.datetime.now().strftime('%I:%M %p')
         talk('Current time is ' + time)
